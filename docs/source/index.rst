@@ -11,6 +11,19 @@ Welcome to edunlp4's documentation!
    :caption: Contents:
 
 
+test
+==================
+.. toctree::
+
+   :maxdepth: 1
+
+   :titlesonly:
+
+
+
+   d2v_bow_tfidf  <../../build/blitz/pretrain/gensim/d2v_bow_tfidf.ipynb>
+
+
 
 Indices and tables
 ==================
