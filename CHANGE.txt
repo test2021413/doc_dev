@@ -1,0 +1,21 @@
+v0.0.5:
+    1. fix the missing stopwords.txt when use pip install
+
+v0.0.4:
+    1. fix the project errors
+
+v0.0.3:
+    1. update formula ast: supporting more symbols and functions defined in katex
+    2. add tokens to vector tools, including word2vec and doc2vec using gensim
+    3. sci4sif support tokenization grouped by segments
+    4. add special tokens: \SIFTag and \SIFSep
+    5. add item to vector tools
+    6. add interface for getting pretrained models, where the supported model names can be accessed by `edunlp i2v` in the command console
+
+v0.0.2:
+    1. fix potential ModuleNotFoundError
+
+v0.0.1:
+    1. Add Formula class to parse latex formula, which will generate the abstract syntax tree.
+    2. Add SIF v0.0.2.
+    3. Add sif4sci function which serves as a preprocess function for downstream tasks.
